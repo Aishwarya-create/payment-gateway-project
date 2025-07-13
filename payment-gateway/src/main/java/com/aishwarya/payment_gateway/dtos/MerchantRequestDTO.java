@@ -1,0 +1,13 @@
+package com.aishwarya.payment_gateway.dtos;
+
+import lombok.Data;
+
+@Data
+public class MerchantRequestDTO {
+
+    private String name;
+    private String email;
+    private String password;
+
+
+}

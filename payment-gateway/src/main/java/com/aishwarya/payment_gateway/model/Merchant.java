@@ -28,5 +28,9 @@ public class Merchant {
     @Column(unique = true)
     private String apiKey;
 
+    @Column(nullable = false)
+    private String secretKey; // Used to generate/verify HMAC signatures
+
+
 
 }

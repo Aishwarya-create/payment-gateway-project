@@ -31,6 +31,9 @@ public class WebhookLog {
 
     private LocalDateTime timestamp;
 
+    private int retryCount;
+
+
     @ManyToOne
     private Payment payment;
 }
