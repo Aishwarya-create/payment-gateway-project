@@ -31,6 +31,8 @@ public class Merchant {
     @Column(nullable = false)
     private String secretKey; // Used to generate/verify HMAC signatures
 
+    @Column(nullable = false)
+    private String merchantCallbackUrl;
 
 
 }

@@ -23,6 +23,8 @@ public class Order {
 
     private BigDecimal amount;
 
+    private String currency;
+
     @Enumerated(EnumType.STRING)
     private OrderStatus status;
 

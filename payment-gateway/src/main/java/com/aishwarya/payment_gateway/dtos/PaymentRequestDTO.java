@@ -6,7 +6,7 @@ import java.math.BigDecimal;
 
 @Data
 public class PaymentRequestDTO {
-    private String orderId;
+    private Long orderId;
     private BigDecimal amount;
     private String paymentMethod; // CARD, UPI, etc.
 }

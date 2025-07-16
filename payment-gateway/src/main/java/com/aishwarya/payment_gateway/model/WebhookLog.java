@@ -33,6 +33,11 @@ public class WebhookLog {
 
     private int retryCount;
 
+    private int responseCode;
+
+    private String responseBody;
+
+
 
     @ManyToOne
     private Payment payment;
